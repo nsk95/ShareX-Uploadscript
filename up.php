@@ -7,9 +7,9 @@
 
  // config vars
 $baseUrl    = "yourpage.com/";   // website-url
-$uploadDir  = "uploads";           // upload-dir
-$randomName = true;                // random filename or use real filename 
-$stringLen  = 8;                    // if randomName is true define length of random string
+$uploadDir  = "uploads";         // upload-dir
+$randomName = true;              // random filename or use real filename 
+$stringLen  = 8;                 // if randomName is true define length of random string
 
 $a_allowedUser = array(
     array(
@@ -35,14 +35,14 @@ $a_allowedMime = array(
 	'image/x-tiff',
 	'image/tiff',
 	'image/x-tiff',
-    'image/vnd.wap.wbmp',
-    'image/bmp',
-    'image/x-windows-bmp',
-    'video/mpeg',
-    'video/mp4',
-    'video/quicktime',
-    'video/webm',
-    'video/x-msvideo'
+    	'image/vnd.wap.wbmp',
+    	'image/bmp',
+    	'image/x-windows-bmp',
+    	'video/mpeg',
+    	'video/mp4',
+    	'video/quicktime',
+    	'video/webm',
+    	'video/x-msvideo'
 );
 
 function getUser(string $secret, array $a_allowedUser) {
